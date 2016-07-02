@@ -1,0 +1,40 @@
+html, body{
+	height:100%;
+	background-color: #c0c0c0;
+}
+body{
+	border: 2px solid black;
+}
+header {
+	background-image: url(promologo300x300.png);
+	height: 100vh;
+	background-size:initial;
+	background-repeat: no-repeat;
+	background-position:center;
+	margin-bottom:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center; 
+}
+header table{
+	display:inline-block;
+	margin-top:250px;
+}
+header td{
+		font-family: Helvetica;
+		color: #737373;
+		font-size:24px;
+		padding:40px;
+
+}
+img.logo{
+	display: block;
+	margin: 0 auto;
+}
+
+iframe{
+	height:100%;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
